@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    background-image: url(./images/background_img.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.header-content{
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.header-title {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.text1 {
+    font-weight: 400;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+
+/* 26  section */
+.years{
+    font-family: Oswald;
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    font-style: normal;
+    line-height: 53px;
+    text-transform: uppercase;
+}
+.years-info{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+.header_info {
+    background-color: #FFFFFF;
+    width: 58%;
+    display: flex;
+    gap: 30px;  
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.item {
+    display: flex;  
+    flex-wrap: wrap;
+    width: 58%;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Section2 */
+
+.section2_content{
+   
+     /* width: 58%;
+     display: flex;     
+     flex-direction: column;    
+     align-items: center;
+     gap: 30px;
+     flex-wrap: wrap;
+     justify-content: center;
+    */
+    display: flex;
+    width: 58%;
+    gap: 30px;
+    align-items: center;
+
+}
+.section2 {
+   
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  
+}
+
+.arena {
+ 
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+.arena-text{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+/* Title */
+
+.projects {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #404149;
+
+    margin: 10% 0 5%;
+   
+  
+}
+
+.arena-item {
+     display: flex;    
+     gap: 30px;     
+     flex-wrap: wrap;
+}
+
